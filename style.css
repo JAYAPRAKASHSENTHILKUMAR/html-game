@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital,wght@1,600&family=Roboto+Mono&family=Secular+One&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.container{
+background: url("Assests/OF18H90.jpg");
+font-family: 'Secular One', sans-serif;;
+background-color:#cd22c2;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height: 1.6;
+padding: 0 20px;
+width:250px;
+height: 250px;
+border-radius: 25;
+margin: 50px;
+border: 10px solid black;
+align-content: space-around;
+}
+
+
+#input-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+input{
+    margin: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.3em;
+    height: 2.5em;
+}
+
+.button{
+    background-color: #0fdbe2;
+    margin: 30px 0;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+
+#message{
+    font-size: 1.5em;
+    background-color: rgb(21, 13, 236);
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+}
+#lives-text{
+    color: white;
+}
+img{
+    width: 60%;
+    max-width: 300px;
+}

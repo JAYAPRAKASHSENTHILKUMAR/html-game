@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>I have a number in my mind from 0 to 100.Can you guess it</h1>
+        <div class="input-container">
+            <input type="number" name="" id="input-number" min="0" max="100">
+            <button type="submit" id="submit">Guess</button>
+        </div>
+        <h2>
+            <lives:span id="lives-text">Lives:<span id="lives">10</span>
+        </h2>
+        <div id="message"></div>
+    </div>
+    <script src="./app.js" type="module"></script>
+</body>
+</html>
